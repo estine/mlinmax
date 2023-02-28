@@ -24,7 +24,7 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 
 
 ### ML in Max Patches
-- **neuralnetworkmapping.maxpat** - using ML (supervised learning) to learn mappings between a gesture and a parametric space (a la Wekinator)
+- **gesturetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a gesture and a parametric space (a la Wekinator)
 - **concantenativesynthesis.maxpat** - using ML (unsupervised learning) to map between one corpus of audio and another at the grain level
 - **timbralmorphing.maxpat** - using ML (neural network) to map between one corpus of audio and another at the sample level
 
