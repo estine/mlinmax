@@ -40,6 +40,56 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.0, 216.0, 206.0, 74.0 ],
+					"presentation_linecount" : 5,
+					"text" : "These can be used in a wide number of ways, but notably I'll demonstrate:\n• JS Web Export\n• Raspberry Pi\n• Audio Plug-ins"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.0, 89.0, 206.0, 114.0 ],
+					"presentation_linecount" : 8,
+					"text" : "RNBO patches can be exported to 5 different targets:\n\n- C++ Source\n- JS Web Export\n- Raspberry Pi\n- Audio Plug-in\n- Max External"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.0, 46.0, 206.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "This patch is NOT a Max patch, but rather a RNBO patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.0, 16.0, 206.0, 20.0 ],
+					"text" : "Inside [rnbo~ delay] is a RNBO patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
@@ -121,6 +171,18 @@
 							"parsestring" : ""
 						}
 ,
+						"glitch" : 						{
+							"label" : "glitch",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"lowpassres" : 						{
+							"label" : "lowpassres",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"feedback" : 						{
 							"label" : "feedback",
 							"isEnum" : 0,
@@ -135,18 +197,6 @@
 ,
 						"lowpass" : 						{
 							"label" : "lowpass",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"lowpassres" : 						{
-							"label" : "lowpassres",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"glitch" : 						{
-							"label" : "glitch",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -181,7 +231,7 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"glitch" : 							{
-								"value" : 0.0
+								"value" : 1000.0
 							}
 ,
 							"lowpassres" : 							{
@@ -204,7 +254,7 @@
 								"value" : 500.0
 							}
 ,
-							"__presetid" : "pingpong"
+							"__presetid" : "delay"
 						}
 ,
 						"snapshotlist" : 						{
@@ -214,13 +264,13 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "delay",
-									"origin" : "pingpong",
+									"origin" : "delay",
 									"type" : "rnbo",
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
 										"glitch" : 										{
-											"value" : 0.0
+											"value" : 1000.0
 										}
 ,
 										"lowpassres" : 										{
@@ -243,7 +293,7 @@
 											"value" : 500.0
 										}
 ,
-										"__presetid" : "pingpong"
+										"__presetid" : "delay"
 									}
 ,
 									"fileref" : 									{
@@ -251,7 +301,7 @@
 										"filename" : "delay.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "72d347f9c7a158eb5089036d65298b9e"
+										"snapshotfileid" : "e65bfbe6a72e43a2505b10f20c3cde6a"
 									}
 
 								}
