@@ -16,6 +16,20 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 
 <br>
 
+### ML in Max Resources (Externals Packages)
+
+| Package | Developer | Features | Source | Release Date | Development Status | Notes | 
+| ------- | --------- | -------- | ------ | ------------ | ------------------ | ----- |
+| [MuBu + PiPo](https://ismm.ircam.fr/mubu/) | ISMM Team @ IRCAM | a bunch of stuff | Closed Source | 2010 | In Development | awesome, but somewhat steep learning curve, INSTALL via Max Package Manager |
+| [nn~](https://github.com/acids-ircam/nn_tilde/releases) | Acids Team @ IRCAM | neural network model in Max | [Open Source](https://github.com/acids-ircam/nn_tilde) | 2022 | In Development | works with [RAVE](https://github.com/acids-ircam/RAVE) |
+| [FluCoMa](https://www.flucoma.org/download/) | FluCoMa Team | to write | Closed Source | 2018 | Just Stopped Development | super neat, install via Max Package Manager |
+| [ml.star](https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max) | Benjamin D. Smith | to write | Closed Source | 2011 | Not in Development | good entry point, INSTALL via Max Package Manager |
+| [ml-lib](https://github.com/irllabs/ml-lib) | IRL Labs | based on the Gesture Recognition Toolkit by Nick Gillian | [Open Source](https://github.com/irllabs/ml-lib) | 2013 | In Development | INSTALL via Max Package Manager |
+
+https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
+
+<br>
+
 ## Included Patches
 ### Learning Patches
 - **linearregression.maxpat** - demonstrates simple linear regression
@@ -29,18 +43,6 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 - **timbralmorphing.maxpat** - using ML (neural network) to map between one corpus of audio and another at the sample level
 
 <br>
-
-### ML in Max Resources (Externals Packages)
-
-| Package | Developer | Features | Source | Release Date | Development Status | Notes | 
-| ------- | --------- | -------- | ------ | ------------ | ------------------ | ----- |
-| [MuBu + PiPo](https://ismm.ircam.fr/mubu/) | ISMM Team @ IRCAM | a bunch of stuff | Closed Source | 2010 | In Development | awesome, but somewhat steep learning curve, INSTALL via Max Package Manager |
-| [nn~](https://github.com/acids-ircam/nn_tilde/releases) | Acids Team @ IRCAM | neural network model in Max | [Open Source](https://github.com/acids-ircam/nn_tilde) | 2022 | In Development | works with [RAVE](https://github.com/acids-ircam/RAVE) |
-| [FluCoMa](https://www.flucoma.org/download/) | FluCoMa Team | to write | Closed Source | 2018 | Just Stopped Development | super neat, install via Max Package Manager |
-| [ml.star](https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max) | Benjamin D. Smith | to write | Closed Source | 2011 | Not in Development | good entry point, INSTALL via Max Package Manager |
-| [ml-lib](https://github.com/irllabs/ml-lib) | IRL Labs | based on the Gesture Recognition Toolkit by Nick Gillian | [Open Source](https://github.com/irllabs/ml-lib) | 2013 | In Development | INSTALL via Max Package Manager |
-
-https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 
 ### RNBO Extras
 RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets:
