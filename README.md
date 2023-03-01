@@ -30,11 +30,11 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 
 <br>
 
-### ML in Max Resources
+### ML in Max Resources (Externals Packages)
 
 | Package | Developer | Features | Source | Release Date | Development Status | Notes | 
 | ------- | --------- | -------- | ------ | ------------ | ------------------ | ----- |
-| [MuBu + PiPo](https://ismm.ircam.fr/mubu/) | ISMM Team @ IRCAM | a bunch of stuff | [Closed Source](https://git.forum.ircam.fr/haddad/mubu) | 2010 | Green | awesome, but somewhat steep learning curve, INSTALL via Max Package Manager |
+| [MuBu + PiPo](https://ismm.ircam.fr/mubu/) | ISMM Team @ IRCAM | a bunch of stuff | Closed Source | 2010 | Green | awesome, but somewhat steep learning curve, INSTALL via Max Package Manager |
 | [nn~](https://github.com/acids-ircam/nn_tilde/releases) | Acids Team @ IRCAM | neural network model in Max | [Open Source](https://github.com/acids-ircam/nn_tilde) | 2022 | Green | works with [RAVE](https://github.com/acids-ircam/RAVE) |
 | [FluCoMa](https://www.flucoma.org/download/) | FluCoMa Team | to write | Closed Source | 2018 | Red | super neat, install via Max Package Manager |
 | [ml.star](https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max) | Benjamin D. Smith | to write | Closed Source | 2011 | Red | good entry point, INSTALL via Max Package Manager |
