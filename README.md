@@ -30,6 +30,14 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 
 <br>
 
+### ML in Max Resources
+
+(Below is a test of table feature in Markdown)
+
+| Package | Features | Age | Development Status | Notes | 
+| ------- |:--------:| ---:| ------------------ | ----- |
+| MuBu | a bunch of stuff | 5 years | Red | used extensively by Eli |
+
 ### RNBO Extras
 RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets:
 - C++ Source
