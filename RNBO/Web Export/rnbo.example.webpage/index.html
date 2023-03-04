@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="rnbo-version" content="1.0.0-alpha.5">
+    <link rel="stylesheet" href="style/style.css">
+    <title>RNBO Web Export</title>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <svg id="background" width="100%" height="100%"></svg>
+    <div id="rnbo-root">
+		<div>
+			<h1 id="patcher-title">Unnamed patcher</h1>
+		</div>
+        <div id="rnbo-clickable-keyboard">
+            <h2>MIDI Keyboard</h2>
+            <em id="no-midi-label">No MIDI input</em>
+        </div>
+        <div id="rnbo-inports">
+            <h2>Inports</h2>
+            <em id="no-inports-label">No inports available</em>
+            <form id="inport-form" className="inport">
+                <div className="inport-input">
+                    <select id="inport-select"></select>
+                    <input id="inport-text" type="text"></input>
+                    <input id="inport-submit" className="smallButton" type="submit" value="Send"/>
+                </div>
+            </form>
+        </div>
+		<div id="rnbo-console">
+			<h2>Outports</h2>
+			<em id="no-outports-label">No outports available</em>
+			<div id="rnbo-console-div">
+				<p id="rnbo-console-readout">Waiting for messages...</p>
+				<em id="rnbo-console-description">Check the developer console for more messages from the RNBO device</em>
+			</div>
+		</div>
+		<div id="rnbo-presets">
+			<h2>Presets</h2>
+			<em id="no-presets-label">No presets defined</em>
+			<select id="preset-select"></select>
+		</div>
+        <div id="rnbo-parameter-sliders">
+            <h2>Parameters</h2>
+            <em id="no-param-label">No parameters</em>
+        </div>
+    </div>
+
+    <!-- Load the script that creates the RNBO device  -->
+    <!-- Uncomment if you know the version of your exported RNBO patch to avoid dynamic loading -->
+    <!-- <script type="text/javascript" src="https://cdn.cycling74.com/rnbo/latest/rnbo.min.js"></script> -->
+
+    <!-- (Optional) The guardrails.js script isn't required for RNBO to work, and you can skip including it -->
+    <!-- It simply offers some helpful error messages for common problems -->
+    <script type="text/javascript" src="js/guardrails.js"></script>
+
+    <!-- Import RNBO Engine Wrapper -->
+    <!-- Make sure to include the RNBO engine version to the version of your exported code, found in rnbopackage.json -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
