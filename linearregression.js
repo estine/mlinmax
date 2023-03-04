@@ -35,10 +35,6 @@ for (var i = 0, len = count; i < count; i++) {
 var slope = (count * xySum - xSum * ySum) / (count * xxSum - xSum * xSum);
 var intercept = (ySum / count) - (slope * xSum) / count;
 
-if(slope>1) {
-outlet(0,(1/slope),(intercept*-1));
-} else {
-outlet(0,(1/slope),intercept);
-}
+outlet(0,slope,intercept);
 
 }

@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 691.0, 614.471726030111313, 246.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "TODO: this is still fucky for negative slopes..."
 				}
 
@@ -1252,7 +1251,7 @@
 					"patching_rect" : [ 439.735874056816101, 278.566053569316864, 212.452813565731049, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 260.314524680376053, 459.566053569316864, 212.452813565731049, 36.0 ],
-					"text" : "y = 1.3x + 1.20"
+					"text" : "y = -0.5x + 5.50"
 				}
 
 			}
@@ -1459,7 +1458,7 @@
 					"presentation_rect" : [ 151.339631676673889, 143.84905594587326, 160.0, 145.0 ],
 					"range" : 10,
 					"size" : 10,
-					"table_data" : [ 0, 1, 2, 3, 6, 8, 9, 9, 9, 9, 9 ]
+					"table_data" : [ 0, 5, 5, 5, 4, 4, 3, 3, 2, 2, 1 ]
 				}
 
 			}
@@ -1547,7 +1546,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-2", 0 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -1698,7 +1697,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-2", 1 ],
 					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
@@ -1835,7 +1834,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "linearregression.js",
-				"bootpath" : "~/Desktop/ML in Max + RNBO",
+				"bootpath" : "~/Desktop/Code/mlinmax",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
