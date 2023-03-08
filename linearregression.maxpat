@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 63.0, 99.0, 723.0, 865.0 ],
+		"rect" : [ 63.0, 91.0, 636.0, 831.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 443.358496487140656, 109.84905594587326, 109.433960378170013, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 422.001503997775671, 117.84905594587326, 109.0, 20.0 ],
+					"presentation_rect" : [ 377.001503997775671, 117.84905594587326, 109.0, 20.0 ],
 					"text" : "Scatter plot of data"
 				}
 
@@ -95,9 +95,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.339631676673889, 270.84905594587326, 141.0, 33.0 ],
+					"patching_rect" : [ 134.339631676673889, 270.84905594587326, 141.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.339631676673889, 292.84905594587326, 159.0, 20.0 ],
+					"presentation_rect" : [ 106.339631676673889, 292.84905594587326, 159.0, 19.0 ],
 					"text" : "0   1   2   3   4   5   6   7   8   9"
 				}
 
@@ -112,7 +112,7 @@
 					"patching_rect" : [ 61.358496487140656, 310.84905594587326, 117.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 133.339631676673889, 141.84905594587326, 19.0, 153.0 ],
+					"presentation_rect" : [ 88.339631676673889, 141.84905594587326, 19.0, 149.0 ],
 					"text" : "9 8 7 6 5 4 3 2 1 0"
 				}
 
@@ -127,7 +127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 629.0, 437.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.314524680376053, 643.47172948718071, 22.0, 22.0 ]
+					"presentation_rect" : [ 215.314524680376053, 643.47172948718071, 22.0, 22.0 ]
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 879.47172486782074, 143.84905594587326, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.839631676673889, 698.696989287029737, 37.0, 37.0 ],
+					"presentation_rect" : [ 148.839631676673889, 698.696989287029737, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -199,7 +199,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 879.47172486782074, 474.863636363636374, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.339631676673889, 599.863639820705771, 37.0, 37.0 ],
+					"presentation_rect" : [ 140.339631676673889, 599.863639820705771, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -240,7 +240,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 594.500032544136047, 135.863636363636374, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.767338246107101, 414.863636363636374, 37.0, 37.0 ],
+					"presentation_rect" : [ 153.767338246107101, 414.863636363636374, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -281,7 +281,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 359.471720218658447, 67.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.339631676673889, 74.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 198.339631676673889, 74.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -314,9 +314,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 387.339631676673889, 553.660382270812988, 19.0, 103.0 ],
+					"patching_rect" : [ 387.339631676673889, 553.660382270812988, 19.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 543.660382270812988, 63.0, 20.0 ],
+					"presentation_rect" : [ 342.197949397032858, 543.660382270812988, 63.0, 20.0 ],
 					"text" : "(intercept)"
 				}
 
@@ -328,9 +328,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.314510732889175, 555.660382270812988, 19.0, 62.0 ],
+					"patching_rect" : [ 283.314510732889175, 555.660382270812988, 19.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.339631676673889, 543.660382270812988, 45.0, 20.0 ],
+					"presentation_rect" : [ 237.339631676673889, 543.660382270812988, 45.0, 20.0 ],
 					"text" : "(slope)"
 				}
 
@@ -343,7 +343,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.864611017172933, 704.377389192581177, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 369.660382270812988, 104.0, 20.0 ],
+					"presentation_rect" : [ 342.197949397032858, 369.660382270812988, 104.0, 20.0 ],
 					"text" : "Red = error",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -357,7 +357,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.864611017172933, 682.377389192581177, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 347.660382270812988, 104.0, 20.0 ],
+					"presentation_rect" : [ 342.197949397032858, 347.660382270812988, 104.0, 20.0 ],
 					"text" : "Green = fitted line",
 					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ]
 				}
@@ -371,7 +371,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.864611017172933, 660.377389192581177, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 325.660382270812988, 104.0, 20.0 ],
+					"presentation_rect" : [ 342.197949397032858, 325.660382270812988, 104.0, 20.0 ],
 					"text" : "Blue = data",
 					"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ]
 				}
@@ -384,9 +384,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 547.0, 43.0 ],
+					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 547.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 7.378973786949256, 547.0, 43.0 ],
+					"presentation_rect" : [ 48.040931463241577, 15.378973786949256, 547.0, 42.0 ],
 					"text" : "ML in Max | Simple Linear Regression"
 				}
 
@@ -399,9 +399,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.0, 455.863636363636374, 145.0, 69.0 ],
+					"patching_rect" : [ 722.0, 455.863636363636374, 145.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.839631676673889, 604.863639820705771, 279.0, 27.0 ],
+					"presentation_rect" : [ 175.839631676673889, 604.863639820705771, 279.0, 27.0 ],
 					"text" : "Replacing with Machine Learning:"
 				}
 
@@ -414,9 +414,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.358496487140656, 130.363636363636374, 145.0, 48.0 ],
+					"patching_rect" : [ 443.358496487140656, 130.363636363636374, 145.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 237.767338246107101, 419.863636363636374, 235.0, 27.0 ],
+					"presentation_rect" : [ 192.767338246107101, 419.863636363636374, 235.0, 27.0 ],
 					"text" : "Matching to a Line By Hand:"
 				}
 
@@ -429,9 +429,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.679265677928925, 67.245289027690887, 146.0, 48.0 ],
+					"patching_rect" : [ 212.679265677928925, 67.245289027690887, 146.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.339631676673889, 79.245289027690887, 156.0, 27.0 ],
+					"presentation_rect" : [ 237.339631676673889, 79.245289027690887, 156.0, 27.0 ],
 					"text" : "Inputting the Data:"
 				}
 
@@ -444,9 +444,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.0, 141.363636363636374, 144.0, 48.0 ],
+					"patching_rect" : [ 722.0, 141.363636363636374, 144.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.839631676673889, 703.696989287029623, 255.0, 27.0 ],
+					"presentation_rect" : [ 187.839631676673889, 703.696989287029623, 255.0, 27.0 ],
 					"text" : "Using the Model for Prediction:"
 				}
 
@@ -463,7 +463,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 741.0, 313.471715569496155, 100.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.839631676673889, 765.182422816753387, 70.0, 29.0 ]
+					"presentation_rect" : [ 333.839631676673889, 765.182422816753387, 70.0, 29.0 ]
 				}
 
 			}
@@ -479,7 +479,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -709,7 +709,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 741.0, 278.566053569316864, 122.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.839631676673889, 737.33335292339325, 122.0, 20.0 ],
+					"presentation_rect" : [ 333.839631676673889, 737.33335292339325, 122.0, 20.0 ],
 					"text" : "Estimated Happiness"
 				}
 
@@ -725,7 +725,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 741.0, 230.849069893360138, 70.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 253.50629460811615, 765.182422816753387, 61.0, 29.0 ]
+					"presentation_rect" : [ 208.50629460811615, 765.182422816753387, 61.0, 29.0 ]
 				}
 
 			}
@@ -737,7 +737,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 741.0, 203.0, 111.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 253.50629460811615, 737.33335292339325, 111.0, 20.0 ],
+					"presentation_rect" : [ 208.50629460811615, 737.33335292339325, 111.0, 20.0 ],
 					"text" : "Concerts Attended:"
 				}
 
@@ -811,7 +811,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 621.0, 552.471726030111313, 125.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.339631676673889, 643.098848131248474, 125.660368323326111, 23.0 ],
+					"presentation_rect" : [ 251.339631676673889, 643.098848131248474, 125.660368323326111, 23.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "linearregression.js",
 						"parameter_enable" : 0
@@ -832,7 +832,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 423.69813746213913, 626.377389192581177, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 520.031475841999054, 334.660382270812988, 50.0, 22.0 ],
+					"presentation_rect" : [ 475.031475841999054, 334.660382270812988, 50.0, 22.0 ],
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -845,7 +845,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.235874056816101, 626.377389192581177, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.805058598518372, 356.660382270812988, 64.0, 20.0 ],
+					"presentation_rect" : [ 467.805058598518372, 356.660382270812988, 64.0, 20.0 ],
 					"text" : "Total Error",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -863,7 +863,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1167,7 +1167,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 477.47172486782074, 391.77360600233078, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.088103950023651, 519.160382270812988, 19.0, 20.0 ],
+					"presentation_rect" : [ 320.088103950023651, 519.160382270812988, 19.0, 20.0 ],
 					"text" : "b:"
 				}
 
@@ -1184,7 +1184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 419.924552381038666, 391.77360600233078, 69.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 514.660382270812988, 69.0, 29.0 ]
+					"presentation_rect" : [ 342.197949397032858, 514.660382270812988, 69.0, 29.0 ]
 				}
 
 			}
@@ -1218,9 +1218,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.47172486782074, 356.867944002151489, 19.0, 34.0 ],
+					"patching_rect" : [ 477.47172486782074, 356.867944002151489, 19.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 237.767338246107101, 519.160382270812988, 22.0, 20.0 ],
+					"presentation_rect" : [ 192.767338246107101, 519.160382270812988, 22.0, 20.0 ],
 					"text" : "m:"
 				}
 
@@ -1237,7 +1237,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 419.924552381038666, 356.867944002151489, 69.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.767338246107101, 514.660382270812988, 69.0, 29.0 ]
+					"presentation_rect" : [ 225.767338246107101, 514.660382270812988, 69.0, 29.0 ]
 				}
 
 			}
@@ -1250,8 +1250,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.735874056816101, 278.566053569316864, 212.452813565731049, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.314524680376053, 459.566053569316864, 212.452813565731049, 36.0 ],
-					"text" : "y = 0.9x + 0.00"
+					"presentation_rect" : [ 215.314524680376053, 459.566053569316864, 212.452813565731049, 36.0 ],
+					"text" : "y = 0.6x + 1.90"
 				}
 
 			}
@@ -1310,7 +1310,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.075476676225662, 102.150951027870178, 150.0, 75.0 ],
+					"patching_rect" : [ 9.075476676225662, 102.150951027870178, 150.0, 74.0 ],
 					"text" : "Data from multiple months.\n\nTurn them into a scatter plot:"
 				}
 
@@ -1327,7 +1327,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.864611017172933, 478.566062867641449, 178.607109201485514, 169.811326324939728 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.197949397032858, 143.84905594587326, 178.607109201485514, 169.811326324939728 ],
+					"presentation_rect" : [ 342.197949397032858, 143.84905594587326, 178.607109201485514, 169.811326324939728 ],
 					"rangelabel" : "Concerts",
 					"subplots" : [ 						{
 							"color" : [ 0.0, 0.0, 1.0, 1.0 ],
@@ -1401,7 +1401,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.679254055023193, 306.867941677570343, 161.320755243301392, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.339631676673889, 317.867941677570343, 161.320755243301392, 20.0 ],
+					"presentation_rect" : [ 106.339631676673889, 317.867941677570343, 161.320755243301392, 20.0 ],
 					"text" : "Reported level of happiness"
 				}
 
@@ -1415,7 +1415,7 @@
 					"patching_rect" : [ 29.358496487140656, 206.34905594587326, 109.433960378170013, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 61.358496487140656, 199.84905594587326, 63.433960378170013, 34.0 ],
+					"presentation_rect" : [ 16.358496487140656, 199.84905594587326, 63.433960378170013, 33.0 ],
 					"text" : "Concerts attended"
 				}
 
@@ -1455,10 +1455,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 151.339631676673889, 143.84905594587326, 160.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.339631676673889, 143.84905594587326, 160.0, 145.0 ],
+					"presentation_rect" : [ 106.339631676673889, 143.84905594587326, 160.0, 145.0 ],
 					"range" : 10,
 					"size" : 10,
-					"table_data" : [ 0, 0, 1, 2, 3, 4, 4, 5, 6, 7, 9 ]
+					"table_data" : [ 0, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7 ]
 				}
 
 			}
@@ -1834,7 +1834,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "linearregression.js",
-				"bootpath" : "~/Documents/GitHub/mlinmax",
+				"bootpath" : "~/Desktop/Code/mlinmax",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

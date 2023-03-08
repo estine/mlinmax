@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 350.0, 99.0, 756.0, 823.0 ],
+		"rect" : [ 68.0, 65.0, 702.0, 878.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,51 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 164.0, 176.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 646.0, 77.0, 139.0, 22.0 ],
+					"text" : "loadmess presentation 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 646.0, 109.745289027690887, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.0, 662.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.0, 521.0, 120.0, 20.0 ],
-					"text" : "0. 0. 0.",
+					"presentation_rect" : [ 508.0, 508.5, 120.0, 20.0 ],
+					"text" : "0.59 1.00 0.54",
 					"textjustification" : 1
 				}
 
@@ -72,7 +109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.0, 553.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.0, 415.0, 120.0, 20.0 ],
+					"presentation_rect" : [ 508.0, 364.5, 120.0, 20.0 ],
 					"text" : "Feature Visualization"
 				}
 
@@ -88,7 +125,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.0, 580.0, 93.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.0, 442.0, 120.0, 71.0 ],
+					"presentation_rect" : [ 508.0, 392.5, 120.0, 108.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 3
@@ -141,7 +178,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 671.0, 540.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 592.0, 167.0, 20.0 ],
+					"presentation_rect" : [ 41.471720218658447, 546.0, 167.0, 20.0 ],
 					"text" : "Switch to Query Mode"
 				}
 
@@ -156,7 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 634.0, 510.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.471720218658447, 189.745289027690887, 177.0, 20.0 ],
+					"presentation_rect" : [ 39.471720218658447, 158.745289027690887, 177.0, 20.0 ],
 					"text" : "Switch to Training Mode"
 				}
 
@@ -171,7 +208,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 602.0, 613.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 467.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 366.0, 428.5, 100.0, 20.0 ],
 					"text" : "CLEAR"
 				}
 
@@ -196,7 +233,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 785.0, 197.745289027690887, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.0, 640.745289027690887, 58.0, 20.0 ],
+					"presentation_rect" : [ 293.0, 594.745289027690887, 58.0, 20.0 ],
 					"text" : "SNARES"
 				}
 
@@ -209,7 +246,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 560.0, 197.745289027690887, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.471720218658447, 640.745289027690887, 45.0, 20.0 ],
+					"presentation_rect" : [ 39.471720218658447, 594.745289027690887, 45.0, 20.0 ],
 					"text" : "KICKS"
 				}
 
@@ -220,11 +257,10 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test/100 Clip [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test/100 Clip [KICK].wav",
 								"filename" : "100 Clip [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u940002320",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u203004025",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -232,11 +268,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test/Bet Cool [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test/Bet Cool [KICK].wav",
 								"filename" : "Bet Cool [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u048002323",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u363004021",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -244,11 +279,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test/EA [Kick].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test/EA [Kick].wav",
 								"filename" : "EA [Kick].wav",
 								"filekind" : "audiofile",
-								"id" : "u422002326",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u153004022",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -256,11 +290,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test/Hell Shell [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test/Hell Shell [KICK].wav",
 								"filename" : "Hell Shell [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u390002329",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u591004023",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -268,11 +301,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test/Old Kick - 1 [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test/Old Kick - 1 [KICK].wav",
 								"filename" : "Old Kick - 1 [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u020002332",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u162004024",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -296,7 +328,7 @@
 					"patching_rect" : [ 560.0, 229.0, 150.0, 150.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 39.471720218658447, 677.0, 150.0, 150.0 ],
+					"presentation_rect" : [ 39.471720218658447, 631.0, 150.0, 150.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -308,11 +340,10 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test/10 Pacc [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test/10 Pacc [SNARE].wav",
 								"filename" : "10 Pacc [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u248002297",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u423003994",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -320,11 +351,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test/100 Racks [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test/100 Racks [SNARE].wav",
 								"filename" : "100 Racks [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u210002300",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u368003990",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -332,11 +362,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test/Backroom [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test/Backroom [SNARE].wav",
 								"filename" : "Backroom [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u725002303",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u477003991",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -344,11 +373,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test/Bet Cool [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test/Bet Cool [SNARE].wav",
 								"filename" : "Bet Cool [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u490002306",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u404003992",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -356,11 +384,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test/Brentrambo [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test/Brentrambo [SNARE].wav",
 								"filename" : "Brentrambo [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u641002309",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u358003993",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -384,7 +411,7 @@
 					"patching_rect" : [ 785.0, 229.0, 150.0, 150.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 677.0, 150.0, 150.0 ],
+					"presentation_rect" : [ 295.0, 631.0, 150.0, 150.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -399,7 +426,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 958.745289027690774, 120.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 855.878622361024213, 121.588234685825455, 41.0 ],
+					"presentation_rect" : [ 41.471720218658447, 809.878622361024213, 121.588234685825455, 41.0 ],
 					"text" : "Answer:"
 				}
 
@@ -437,7 +464,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 475.0, 613.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.47172486782074, 467.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 252.47172486782074, 428.5, 100.0, 20.0 ],
 					"text" : "TRAIN"
 				}
 
@@ -490,7 +517,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 295.0, 197.745289027690887, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 242.745289027690887, 58.0, 20.0 ],
+					"presentation_rect" : [ 295.0, 211.745289027690887, 58.0, 20.0 ],
 					"text" : "SNARES"
 				}
 
@@ -503,7 +530,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.471720218658447, 197.745289027690887, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 242.745289027690887, 45.0, 20.0 ],
+					"presentation_rect" : [ 41.471720218658447, 211.745289027690887, 45.0, 20.0 ],
 					"text" : "KICKS"
 				}
 
@@ -517,7 +544,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 908.878622361024213, 306.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.173932156849389, 855.878622361024213, 298.826067843150611, 41.0 ]
+					"presentation_rect" : [ 167.173932156849389, 809.878622361024213, 298.826067843150611, 41.0 ],
+					"text" : "Hey, that's a snare!"
 				}
 
 			}
@@ -1044,11 +1072,10 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train/40 Clip [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train/40 Clip [SNARE].wav",
 								"filename" : "40 Clip [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u530001001",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u589004071",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1056,11 +1083,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train/All Night [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train/All Night [SNARE].wav",
 								"filename" : "All Night [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u395001004",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u465004067",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1068,11 +1094,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train/Barbeque [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train/Barbeque [SNARE].wav",
 								"filename" : "Barbeque [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u900001007",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u250004068",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1080,11 +1105,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train/Boomerang [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train/Boomerang [SNARE].wav",
 								"filename" : "Boomerang [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u355001010",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u764004069",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1092,11 +1116,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train/Cashin' [SNARE].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train/Cashin' [SNARE].wav",
 								"filename" : "Cashin' [SNARE].wav",
 								"filekind" : "audiofile",
-								"id" : "u674001013",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u938004070",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1120,7 +1143,7 @@
 					"patching_rect" : [ 295.0, 229.0, 150.0, 150.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 274.0, 150.0, 150.0 ],
+					"presentation_rect" : [ 295.0, 243.0, 150.0, 150.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -1132,11 +1155,10 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train/Alma Mater [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train/Alma Mater [KICK].wav",
 								"filename" : "Alma Mater [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u801000921",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u740004048",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1144,11 +1166,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train/Chopa Won't Miss [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train/Chopa Won't Miss [KICK].wav",
 								"filename" : "Chopa Won't Miss [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u107000924",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u341004044",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1156,11 +1177,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train/Gummo [Kick].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train/Gummo [Kick].wav",
 								"filename" : "Gummo [Kick].wav",
 								"filekind" : "audiofile",
-								"id" : "u535000927",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u794004045",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1168,11 +1188,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train/Michigan [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train/Michigan [KICK].wav",
 								"filename" : "Michigan [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u477000930",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u561004046",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1180,11 +1199,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/Eli/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train/Old Kick - 2 [KICK].wav",
+								"absolutepath" : "/Users/elistine/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train/Old Kick - 2 [KICK].wav",
 								"filename" : "Old Kick - 2 [KICK].wav",
 								"filekind" : "audiofile",
-								"id" : "u384000933",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u402004047",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1208,7 +1226,7 @@
 					"patching_rect" : [ 41.471720218658447, 229.0, 150.0, 150.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 274.0, 150.0, 150.0 ],
+					"presentation_rect" : [ 41.471720218658447, 243.0, 150.0, 150.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -1222,7 +1240,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.47172486782074, 967.745289027690887, 261.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.47172486782074, 540.745289027690887, 271.0, 20.0 ],
+					"presentation_rect" : [ 90.47172486782074, 494.745289027690887, 271.0, 20.0 ],
 					"text" : "Give it new, unclassified input, get classification"
 				}
 
@@ -1242,7 +1260,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.471720218658447, 959.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.471720218658447, 532.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 39.471720218658447, 486.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1276,7 +1294,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.47172486782074, 904.745289027690887, 131.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.47172486782074, 467.5, 131.0, 20.0 ],
+					"presentation_rect" : [ 90.47172486782074, 428.5, 131.0, 20.0 ],
 					"text" : "Train on the Input Data"
 				}
 
@@ -1296,7 +1314,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.471720218658447, 896.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 459.0, 37.0, 37.0 ],
+					"presentation_rect" : [ 41.471720218658447, 420.0, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1331,7 +1349,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.47172486782074, 132.745289027690887, 367.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.471720218658447, 139.745289027690887, 424.0, 20.0 ],
+					"presentation_rect" : [ 77.471720218658447, 108.745289027690887, 424.0, 20.0 ],
 					"text" : "Input Training Data, Labelled by Class (which is what makes this supervised)"
 				}
 
@@ -1374,7 +1392,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 41.471720218658447, 124.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.339631676673889, 131.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 31.339631676673889, 100.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1402,14 +1420,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 32.0,
+					"fontsize" : 21.341233003777734,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 257.0, 42.0 ],
+					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 249.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 57.863636363636374, 255.0, 42.0 ],
+					"presentation_rect" : [ 41.47172486782074, 55.545989304812842, 183.52827513217926, 30.0 ],
 					"text" : "*Requires: ml-lib"
 				}
 
@@ -1549,6 +1567,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
 					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 3,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 2,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1799,6 +1849,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 1 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -1959,6 +2016,146 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "10 Pacc [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "100 Clip [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "100 Racks [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "40 Clip [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "All Night [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Alma Mater [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Backroom [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Barbeque [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Bet Cool [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Bet Cool [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Boomerang [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Brentrambo [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Cashin' [SNARE].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Snares/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Chopa Won't Miss [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EA [Kick].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gummo [Kick].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Hell Shell [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Michigan [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Old Kick - 1 [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Test",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Old Kick - 2 [KICK].wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Kicks + Snares/Kicks/Train",
+				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ml.svm.mxo",
 				"type" : "iLaX"
 			}
