@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 847.0, 385.0, 756.0, 829.0 ],
+		"rect" : [ 350.0, 99.0, 756.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 256.0, 662.0, 120.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 508.0, 521.0, 120.0, 20.0 ],
+					"text" : "0. 0. 0.",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 176.721720218658447, 611.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-130",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -62,7 +88,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.0, 580.0, 93.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 508.0, 442.0, 93.0, 71.0 ],
+					"presentation_rect" : [ 508.0, 442.0, 120.0, 71.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 3
@@ -371,9 +397,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 958.745289027690774, 120.0, 42.0 ],
+					"patching_rect" : [ 403.0, 958.745289027690774, 120.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 855.878622361024213, 121.588234685825455, 42.0 ],
+					"presentation_rect" : [ 41.471720218658447, 855.878622361024213, 121.588234685825455, 41.0 ],
 					"text" : "Answer:"
 				}
 
@@ -489,10 +515,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 908.878622361024213, 306.0, 42.0 ],
+					"patching_rect" : [ 403.0, 908.878622361024213, 306.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.173932156849389, 855.878622361024213, 298.826067843150611, 42.0 ],
-					"text" : "Hey, that's a snare!"
+					"presentation_rect" : [ 167.173932156849389, 855.878622361024213, 298.826067843150611, 41.0 ]
 				}
 
 			}
@@ -580,7 +605,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1304,7 +1329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.47172486782074, 132.745289027690887, 367.0, 34.0 ],
+					"patching_rect" : [ 90.47172486782074, 132.745289027690887, 367.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.471720218658447, 139.745289027690887, 424.0, 20.0 ],
 					"text" : "Input Training Data, Labelled by Class (which is what makes this supervised)"
@@ -1382,9 +1407,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 257.0, 43.0 ],
+					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 257.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 57.863636363636374, 255.0, 43.0 ],
+					"presentation_rect" : [ 41.47172486782074, 57.863636363636374, 255.0, 42.0 ],
 					"text" : "*Requires: ml-lib"
 				}
 
@@ -1396,9 +1421,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 574.0, 43.0 ],
+					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 574.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 7.378973786949256, 582.0, 43.0 ],
+					"presentation_rect" : [ 41.47172486782074, 7.378973786949256, 582.0, 42.0 ],
 					"text" : "ML in Max | Supervised Learning (SVM)"
 				}
 
@@ -1602,6 +1627,13 @@
 					"destination" : [ "obj-73", 0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1824,8 +1856,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"order" : 2,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 3,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1919,148 +1959,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "10 Pacc [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "100 Clip [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "100 Racks [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "40 Clip [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "All Night [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Alma Mater [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Backroom [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Barbeque [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bet Cool [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bet Cool [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Boomerang [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Brentrambo [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cashin' [SNARE].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Snares/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Snares/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chopa Won't Miss [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "EA [Kick].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gummo [Kick].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Hell Shell [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Michigan [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Old Kick - 1 [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Test",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Test",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Old Kick - 2 [KICK].wav",
-				"bootpath" : "~/Documents/GitHub/mlinmax/Kicks + Snares/Kicks/Train",
-				"patcherrelativepath" : "./Kicks + Snares/Kicks/Train",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ml.svm.mxe64",
-				"type" : "mx64"
+				"name" : "ml.svm.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
