@@ -33,9 +33,11 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 ## Included Patches
 ### Learning Patches
 - **linearregression.maxpat** - demonstrates simple linear regression
+![linearregression](LinearRegressionScreenshot.png)
 - **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires ml-lib externals
+![supervised](SupervisedScreenshot.png)
 - **unsupervised.maxpat** - demonstrates unsupervised learning using the Fuzzy C-means clustering algorithm, requires ml.* externals
-
+![unsupervised](UnsupervisedScreenshot.png)
 
 ### ML in Max Patches
 - **gesturetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a gesture and a parametric space (a la Wekinator) - https://learn.flucoma.org/learn/mlp-training/
