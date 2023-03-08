@@ -32,7 +32,7 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 
 ## Included Patches
 ### Learning Patches
-- **simplelinearregression.maxpat** - demonstrates simple linear regression
+- **linearregression.maxpat** - demonstrates simple linear regression
 - **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires ml-lib externals
 - **unsupervised.maxpat** - demonstrates unsupervised learning using the k-nearest neighbors algorithm, requires <> externals
 
@@ -54,4 +54,4 @@ RNBO is a new Max feature that allows you to write RNBO patches (similar to Max 
 
 **rnbodemo.maxpat** shows these off.
 
-RNBO is *NOT* Max, though, most notably you can't have symbols (e.g. (parameter $1)) and you also can't use externals at the moment.
+RNBO is *NOT* Max. Most notably, you can't have symbols (e.g. (parameter $1)) and you also can't use externals (as of this writing).
