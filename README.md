@@ -21,7 +21,7 @@ In this talk and demo. I introduce what Machine Learning (ML) is using simple li
 | Package | Developer | Features | Source | Release Date | Development Status | Install Notes | 
 | ------- | --------- | -------- | ------ | ------------ | ------------------ | ------------- |
 | [MuBu + PiPo](https://ismm.ircam.fr/mubu/) | ISMM Team @ IRCAM | many different ML algorithms, focused on audio feature extraction and sound organization, somewhat steep learning curve | Closed Source | 2010 | In Development | via Max Package Manager |
-| [nn~](https://github.com/acids-ircam/nn_tilde/releases) | Acids Team @ IRCAM | neural network model in Max | [Open Source](https://github.com/acids-ircam/nn_tilde) | 2022 | In Development | works with [RAVE](https://github.com/acids-ircam/RAVE) |
+| [nn~](https://github.com/acids-ircam/nn_tilde/releases) | Acids Team @ IRCAM | neural network model in Max | [Open Source](https://github.com/acids-ircam/nn_tilde) | 2022 | In Development | via [this link](https://github.com/acids-ircam/nn_tilde/releases), works with [RAVE](https://github.com/acids-ircam/RAVE) |
 | [FluCoMa](https://www.flucoma.org/download/) | FluCoMa Team | many different ML algorithms, well organized, some example patches assume knowledge of ML | Closed Source | 2018 | Just Stopped Development | via Max Package Manager |
 | [ml.star](https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max) | Benjamin D. Smith | a number of different ML algorithms, with nice example patches, although some dated, a good entry point | Closed Source | 2011 | Not in Development | via Max Package Manager |
 | [ml-lib](https://github.com/irllabs/ml-lib) | IRL Labs | a direct implenentation of the Gesture Recognition Toolkit by Nick Gillian in Max, very barebones, data type agnostic, data as lists | [Open Source](https://github.com/irllabs/ml-lib) | 2013 | In Development | via Max Package Manager |
@@ -33,8 +33,8 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 ## Included Patches
 ### Learning Patches
 - **linearregression.maxpat** - demonstrates simple linear regression
-- **svm.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires <> externals
-- **k-nn.maxpat** - demonstrated unsupervised learning using the k-nearest neighbors algorithm, requires <> externals
+- **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires <> externals
+- **unsupervised.maxpat** - demonstrates unsupervised learning using the k-nearest neighbors algorithm, requires <> externals
 
 
 ### ML in Max Patches
