@@ -34,13 +34,13 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 ### Learning Patches
 - **linearregression.maxpat** - demonstrates simple linear regression
 - **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires ml-lib externals
-- **unsupervised.maxpat** - demonstrates unsupervised learning using the k-nearest neighbors algorithm, requires <> externals
+- **unsupervised.maxpat** - demonstrates unsupervised learning using the Fuzzy C-means clustering algorithm, requires ml.* externals
 
 
 ### ML in Max Patches
 - **gesturetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a gesture and a parametric space (a la Wekinator) - https://learn.flucoma.org/learn/mlp-training/
-- **concantenativesynthesis.maxpat** - using ML (unsupervised learning) to map between one corpus of audio and another at the grain level
-- **timbralmorphing.maxpat** - using ML (neural network) to map between one corpus of audio and another at the sample level
+- **concantenativesynthesis.maxpat** - using ML (unsupervised learning) to map between one corpus of audio and another at the grain level, requires MUBU externals
+- **timbralmorphing.maxpat** - using Deep ML (neural network) to map between one corpus of audio and another at the sample level, requires nn~ external
 
 <br>
 
