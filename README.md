@@ -32,8 +32,8 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 
 ## Included Patches
 ### Learning Patches
-- **linearregression.maxpat** - demonstrates simple linear regression
-- **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires <> externals
+- **simplelinearregression.maxpat** - demonstrates simple linear regression
+- **supervised.maxpat** - demonstrates supervised learning using the support-vector machine algorithm, requires ml-lib externals
 - **unsupervised.maxpat** - demonstrates unsupervised learning using the k-nearest neighbors algorithm, requires <> externals
 
 
