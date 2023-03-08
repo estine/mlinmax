@@ -40,7 +40,7 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 ![unsupervised](UnsupervisedScreenshot.png)
 
 ### ML in Max Patches
-- **gesturetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a gesture and a parametric space (a la Wekinator) - https://learn.flucoma.org/learn/mlp-training/
+- **shapetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a shape and a parametric space (a la Wekinator) - https://learn.flucoma.org/learn/mlp-training/
 - **concantenativesynthesis.maxpat** - using ML (unsupervised learning) to map between one corpus of audio and another at the grain level, requires MUBU externals
 - **timbralmorphing.maxpat** - using Deep ML (neural network) to map between one corpus of audio and another at the sample level, requires nn~ external
 
@@ -54,6 +54,6 @@ RNBO is a new Max feature that allows you to write RNBO patches (similar to Max 
 - Audio Plug-in
 - Max External
 
-**rnbodemo.maxpat** shows these off.
+I'll demonstrate JS Web Export, Raspberry Pi, and an Audio Plug-in.
 
 RNBO is *NOT* Max. Most notably, you can't have symbols (e.g. (parameter $1)) and you also can't use externals (as of this writing).
