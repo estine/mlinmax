@@ -40,6 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
+					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.01 ],
+					"fontsize" : 18.0,
+					"id" : "obj-98",
+					"ignoreclick" : 1,
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 374.471720218658447, 82.245289027690887, 37.0, 37.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 653.339631676673889, 63.863636363636374, 37.0, 37.0 ],
+					"rounded" : 260.0,
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : "themecolor.theme_selectioncolor"
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "1",
+					"varname" : "live.text"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 32.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
@@ -68,6 +109,20 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-98" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
