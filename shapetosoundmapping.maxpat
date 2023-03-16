@@ -323,7 +323,8 @@
 						}
 
 					}
-
+,
+					"varname" : "live.gain~"
 				}
 
 			}
@@ -407,6 +408,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 797.0, 974.245289027690887, 56.0, 22.0 ],
 					"restore" : 					{
+						"live.gain~" : [ -70.0 ],
 						"live.text" : [ 0.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
@@ -1155,7 +1157,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.47172486782074, 967.745289027690887, 261.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.47172486782074, 499.745289027690887, 271.0, 20.0 ],
+					"presentation_rect" : [ 90.47172486782074, 489.745289027690887, 271.0, 20.0 ],
 					"text" : "Give it new, unclassified input, get classification"
 				}
 
@@ -1175,7 +1177,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.471720218658447, 959.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.471720218658447, 491.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 39.471720218658447, 481.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{

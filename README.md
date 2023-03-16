@@ -40,9 +40,12 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 ![unsupervised](UnsupervisedScreenshot.png)
 
 ### ML in Max Patches
-- **shapetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a shape and a parametric space, requires <>
+- **shapetosoundmapping.maxpat** - using ML (supervised learning) to learn mappings between a shape and a parametric space, requires ml-lib externals
+![ShapeToSoundMapping](ShapeToSoundMappingScreenshot.png)
 - **concantenativesynthesis.maxpat** - using ML (unsupervised learning) to map between one corpus of audio and another at the grain level, requires MUBU externals
+![ConcatenativeSynthesis](ConcatenativeSynthesisScreenshot.png)
 - **deeplearning.maxpat** - using Deep ML (neural network) to map between an input sound and a trained sound model in real-time, requires nn~ external
+![DeepLearning](DeepLearningScreenshot.png)
 
 <br>
 
