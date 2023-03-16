@@ -1,10 +1,10 @@
-# mlinmax
-## Repository for Max patches used in Eli Stine's Seattle Max Meetup presentation, March 25th, 2023
+# Machine Learning in Cycling '74's Max
+## Repository for Max patches that accompany my Seattle Max Meetup presentation, March 25th, 2023
 
 <br>
 
 ## Summary
-In this talk and demo. I introduce what Machine Learning (ML) is using simple linear regression as a first example, then expand into shallow learning (unsupervised and supervised learning), and touch on deep learning. Next I show how each of these may be applied using Max, specifically using externals for Max to accomplish the tasks of 1) mapping between a gesture and a synthesizer's parameter space, 2) mapping between a corpus of audio and another corpus of audio in real-time using concatenative synthesis, and 2) mapping between a corpus of audio and another corpus of audio in real-time at the sample level.
+In the accompanying talk and demonstration I introduce what Machine Learning (ML) is using simple linear regression as a first example, then expand into other examples of unsupervised and supervised learning. Next I show how ML may be applied to musical tasks using Max, specifically using externals for Max to accomplish the tasks of 1) mapping between a gesture and synthesizer presets in real-time, 2) mapping between an input sound and a corpus of audio in real-time using concatenative synthesis, and 3) using neural networks trained on corpuses of audio to morph the timbre of a sound at the sample level in real-time.
 
 <br>
 
