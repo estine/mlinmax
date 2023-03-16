@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 866.0, 823.0 ],
+		"rect" : [ 34.0, 99.0, 845.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,139 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : 13.381146090041302,
+					"id" : "obj-54",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 136.216822147369385, 103.745285928249359, 249.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 136.216822147369385, 102.750465287585769, 492.289063155651093, 21.0 ],
+					"text" : "NOTE: When you load this patch for the first time, the objects below will not load!",
+					"textcolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 360.464139461517334, 1057.0, 71.671725153923035, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 641.597796657700883, 356.901914596557617, 52.599416157583846, 53.676510810852051 ],
+					"text" : "Audio Settings",
+					"truncate" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 360.464139461517334, 1134.0, 58.0, 35.0 ],
+					"text" : ";\rdsp open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.671725153923035, 1129.0, 301.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://arxiv.org/pdf/2111.05011.pdf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.671725153923035, 1057.0, 71.671725153923035, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 467.16194760799408, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"text" : "Read About How This Works",
+					"truncate" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.671725153923035, 993.0, 283.0, 62.0 ],
+					"text" : ";\rmax launchbrowser https://acids-ircam.github.io/rave_models_download"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.671725153923035, 921.0, 71.671725153923035, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 386.769785761833191, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"text" : "Other Pre-Trained Models",
+					"truncate" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.671725153923035, 854.0, 217.0, 49.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/acids-ircam/rave_vst"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 41.671725153923035, 782.0, 71.671725153923035, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 305.800002217292786, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"text" : "Click Here For The VST",
+					"truncate" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 27.661044039961691,
 					"id" : "obj-44",
 					"maxclass" : "comment",
@@ -47,7 +180,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 66.0, 581.0, 352.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.707580327987671, 555.063829787233999, 97.528279781341553, 37.0 ],
+					"presentation_rect" : [ 59.707580327987671, 600.063829787233999, 97.528279781341553, 37.0 ],
 					"text" : "MIXER"
 				}
 
@@ -60,7 +193,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 319.300002038478851, 509.500003576278687, 154.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 382.300002217292786, 499.500003576278687, 140.0, 20.0 ],
+					"presentation_rect" : [ 337.300002217292786, 544.500003576278687, 140.0, 20.0 ],
 					"text" : "Magic happens in here..."
 				}
 
@@ -71,7 +204,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 815.085723459720612, 45.0, 45.0 ]
+					"patching_rect" : [ 433.0, 815.085723459720612, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 205.0, 697.085723459720612, 45.0, 45.0 ]
 				}
 
 			}
@@ -86,7 +221,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 514.800002038478851, 637.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.13963371515274, 610.0, 74.0, 136.0 ],
+					"presentation_rect" : [ 113.13963371515274, 655.0, 74.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -114,7 +249,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 433.0, 637.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.339631676673889, 610.0, 70.0, 136.0 ],
+					"presentation_rect" : [ 31.339631676673889, 655.0, 70.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -141,7 +276,7 @@
 					"patching_rect" : [ 260.471720218658447, 285.245289027690887, 309.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 350.800002217292786, 282.245289027690887, 181.0, 47.0 ],
+					"presentation_rect" : [ 305.800002217292786, 327.245289027690887, 181.0, 47.0 ],
 					"text" : "nn~ also allows you to directly access the latent space of the models (!)"
 				}
 
@@ -155,7 +290,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.671725153923035, 711.745289027690887, 367.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.471720218658447, 238.745289027690887, 460.0, 20.0 ],
+					"presentation_rect" : [ 73.471720218658447, 283.745289027690887, 386.0, 20.0 ],
 					"text" : "Reopen this patch, and verify that the objects below load correctly now."
 				}
 
@@ -175,7 +310,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2.671725153923035, 711.745289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.339631676673889, 230.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 31.339631676673889, 275.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -210,7 +345,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.47172486782074, 108.745289027690887, 367.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.471720218658447, 108.745289027690887, 435.0, 20.0 ],
+					"presentation_rect" : [ 73.471720218658447, 153.745289027690887, 435.0, 20.0 ],
 					"text" : "Download some pretrained models, trained on hours of audio. Requires internet!"
 				}
 
@@ -223,7 +358,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.971720218658447, 248.199999988079071, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 222.471720218658447, 178.199999988079071, 156.0, 20.0 ],
+					"presentation_rect" : [ 222.471720218658447, 223.199999988079071, 156.0, 20.0 ],
 					"textjustification" : 1
 				}
 
@@ -248,7 +383,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 63.971720218658447, 248.199999988079071, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 178.199999988079071, 156.0, 20.0 ],
+					"presentation_rect" : [ 41.471720218658447, 223.199999988079071, 156.0, 20.0 ],
 					"textjustification" : 1
 				}
 
@@ -263,7 +398,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 372.671725153923035, 144.699999988079071, 156.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 222.471720218658447, 144.699999988079071, 156.0, 24.0 ],
+					"presentation_rect" : [ 222.471720218658447, 189.699999988079071, 156.0, 24.0 ],
 					"text" : "Get Vocal Model"
 				}
 
@@ -278,7 +413,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.471720218658447, 144.699999988079071, 156.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 144.699999988079071, 156.0, 24.0 ],
+					"presentation_rect" : [ 41.471720218658447, 189.699999988079071, 156.0, 24.0 ],
 					"text" : "Get Percussion Model"
 				}
 
@@ -521,7 +656,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 372.671725153923035, 241.199999988079071, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 222.471720218658447, 178.199999988079071, 156.0, 19.0 ],
+					"presentation_rect" : [ 222.471720218658447, 223.199999988079071, 156.0, 19.0 ],
 					"size" : 1.0
 				}
 
@@ -764,32 +899,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.471720218658447, 241.199999988079071, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 178.199999988079071, 156.0, 19.0 ],
+					"presentation_rect" : [ 41.471720218658447, 223.199999988079071, 156.0, 19.0 ],
 					"size" : 1.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.471720218658447, 886.400010108947754, 285.0, 33.0 ],
-					"text" : "Also available as a VST:\nhttps://github.com/acids-ircam/rave_vst"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.471720218658447, 1030.050805985927582, 285.0, 47.0 ],
-					"text" : "Read the paper about how this works:\n\nhttps://arxiv.org/pdf/2111.05011.pdf"
 				}
 
 			}
@@ -804,7 +915,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 277.600004136562347, 444.500002861022949, 121.999999582767487, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 370.600004136562347, 444.500002861022949, 121.999999582767487, 22.0 ]
+					"presentation_rect" : [ 325.600004136562347, 489.500002861022949, 121.999999582767487, 22.0 ]
 				}
 
 			}
@@ -816,7 +927,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 473.300002038478851, 343.400003790855408, 154.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 584.300002038478851, 327.500003576278687, 154.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 523.800002038478851, 478.500002861022949, 90.0, 33.0 ],
 					"text" : "Perform the latent space (!)"
 				}
 
@@ -840,7 +952,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 257.800002217292786, 319.600003302097321, 219.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.800002217292786, 343.600003302097321, 219.0, 89.0 ],
+					"presentation_rect" : [ 305.800002217292786, 388.600003302097321, 219.0, 89.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -891,7 +1003,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 476.800002038478851, 370.800002098083496, 147.0, 125.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 587.800002038478851, 354.900001883506775, 147.0, 125.0 ]
+					"presentation_rect" : [ 523.800002038478851, 519.500002861022949, 69.0, 72.399999022483826 ]
 				}
 
 			}
@@ -916,7 +1028,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 257.800002217292786, 529.900001883506775, 203.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.800002217292786, 524.900001883506775, 203.0, 22.0 ],
+					"presentation_rect" : [ 305.800002217292786, 569.900001883506775, 203.0, 22.0 ],
 					"text" : "nn~ wheel decode"
 				}
 
@@ -930,20 +1042,8 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 257.800002217292786, 474.500002861022949, 203.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.800002217292786, 474.500002861022949, 203.0, 22.0 ],
+					"presentation_rect" : [ 305.800002217292786, 519.500002861022949, 203.0, 22.0 ],
 					"text" : "nn~ wheel encode"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.471720218658447, 941.161915719509125, 285.0, 74.0 ],
-					"text" : "Other pre-trained models:\nhttps://acids-ircam.github.io/rave_models_download\n\n(Make this into clickable button that opens your browser)"
 				}
 
 			}
@@ -1283,12 +1383,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 13.507615967691985,
 					"id" : "obj-17",
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.471720218658447, 840.085723459720612, 195.0, 20.0 ],
-					"text" : "Notes about signal vector size, etc."
+					"patching_rect" : [ 482.800002038478851, 911.538461538461547, 189.0, 188.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 11,
+					"presentation_rect" : [ 578.878439366817474, 174.539149316548901, 199.0, 172.0 ],
+					"text" : "NOTE:\n\nAdjust the signal vector size in Max to get different results. \n\nThe lower the signal vector size, the less latency but more taxing this is on you computer, the higher the signal vector size, the more latency, but your computer is chillin'"
 				}
 
 			}
@@ -1301,7 +1406,7 @@
 					"patching_rect" : [ 41.471720218658447, 364.400002956390381, 309.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 41.471720218658447, 282.245289027690887, 181.0, 33.0 ],
+					"presentation_rect" : [ 41.471720218658447, 327.245289027690887, 181.0, 33.0 ],
 					"text" : "Play back percussion -> instantly morphed using dataset"
 				}
 
@@ -1325,7 +1430,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 41.471720218658447, 319.600003302097321, 219.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 343.600003302097321, 219.0, 89.0 ],
+					"presentation_rect" : [ 41.471720218658447, 388.600003302097321, 219.0, 89.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1673,7 +1778,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 41.471720218658447, 474.500002861022949, 134.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.471720218658447, 474.500002861022949, 134.0, 22.0 ],
+					"presentation_rect" : [ 41.471720218658447, 519.500002861022949, 134.0, 22.0 ],
 					"text" : "nn~ percussion forward"
 				}
 
@@ -1718,7 +1823,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 41.471720218658447, 79.245289027690887, 37.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.339631676673889, 100.245289027690887, 37.0, 37.0 ],
+					"presentation_rect" : [ 31.339631676673889, 145.245289027690887, 37.0, 37.0 ],
 					"rounded" : 260.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -1784,7 +1889,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 55.471720427274704, 444.500002861022949, 121.999999582767487, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.471720427274704, 444.500002861022949, 121.999999582767487, 22.0 ]
+					"presentation_rect" : [ 55.471720427274704, 489.500002861022949, 121.999999582767487, 22.0 ]
 				}
 
 			}
@@ -1810,6 +1915,13 @@
 					"destination" : [ "obj-5", 0 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2017,6 +2129,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -2068,6 +2194,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
