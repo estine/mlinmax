@@ -50,13 +50,11 @@ https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 <br>
 
 ### RNBO Extras
-RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets:
+RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets, three of which I'll demo.:
 - C++ Source
-- JS Web Export
-- Raspberry Pi
-- Audio Plug-in
+- JS Web Export - see [this Template](https://github.com/Cycling74/rnbo.example.webpage) for a great starting point.
+- Raspberry Pi - [see here](https://rnbo.cycling74.com/learn/raspberry-pi-target-overview) for a step-by-step guide
+- Audio Plug-in - [click here](https://rnbo.cycling74.com/learn/using-the-vst-audiounit-target) for a step-by-step guide
 - Max External
 
-I'll demonstrate JS Web Export, Raspberry Pi, and an Audio Plug-in.
-
-RNBO is *NOT* Max. Most notably, you can't have symbols (e.g. (parameter $1)) and you also can't use externals (as of this writing).
+Remember: RNBO is *NOT* Max. Most notably, you can't have symbols (e.g. (parameter $1)) and you also can't incorporate Max externals (as of this writing).
