@@ -1,5 +1,5 @@
 async function setup() {
-    const patchExportURL = "export/patch.export.json";
+    const patchExportURL = "export/bassline.export.json";
 
     // Create AudioContext
     const WAContext = window.AudioContext || window.webkitAudioContext;
@@ -81,7 +81,7 @@ async function setup() {
     makeInportForm(device);
 
     // (Optional) Attach listeners to outports so you can log messages from the RNBO patcher
-    attachOutports(device);
+    //attachOutports(device);
 
     // (Optional) Load presets, if any
     loadPresets(device, patcher);
@@ -247,7 +247,7 @@ function makeInportForm(device) {
     }
 }
 
-function attachOutports(device) {
+/*function attachOutports(device) {
     const outports = device.outports;
     if (outports.length < 1) {
         document.getElementById("rnbo-console").removeChild(document.getElementById("rnbo-console-div"));
@@ -265,7 +265,7 @@ function attachOutports(device) {
 
         document.getElementById("rnbo-console-readout").innerText = `${ev.tag}: ${ev.payload}`;
     });
-}
+}*/
 
 function loadPresets(device, patcher) {
     let presets = patcher.presets || [];
