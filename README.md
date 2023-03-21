@@ -10,7 +10,7 @@ In the accompanying talk and demonstration I introduce what Machine Learning (ML
 
 ## Assumptions
 - You're interested in incorporating ML into your art-making practice
-- You're not knowledgeable about ML (yet!)
+- You're not deeply knowledgeable about ML (yet!)
 - You're comfortable programming in Max
 - You're aware of how to install packages (File -> Show Package Manager)
 
