@@ -40,6 +40,44 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 19.919054512591146,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 328.0, 901.0, 116.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 360.990541219711304, 630.753424657534197, 123.230214238166809, 29.0 ],
+					"text" : "Learn More!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 676.0, 612.0, 87.0, 22.0 ],
+					"text" : "loadmess -200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 194.0, 418.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 13.381146090041302,
 					"id" : "obj-54",
@@ -107,7 +145,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 1057.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.16194760799408, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 467.16194760799408, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Read About How This Works",
 					"truncate" : 0
 				}
@@ -136,7 +174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 921.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.769785761833191, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 386.769785761833191, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Other Pre-Trained Models",
 					"truncate" : 0
 				}
@@ -165,7 +203,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 782.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.800002217292786, 656.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 305.800002217292786, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Click Here For The VST",
 					"truncate" : 0
 				}
@@ -1025,7 +1063,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 257.800002217292786, 529.900001883506775, 203.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 305.800002217292786, 569.900001883506775, 203.0, 22.0 ],
@@ -1039,7 +1077,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 257.800002217292786, 474.500002861022949, 203.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 305.800002217292786, 519.500002861022949, 203.0, 22.0 ],
@@ -1775,7 +1813,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.471720218658447, 474.500002861022949, 134.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.471720218658447, 519.500002861022949, 134.0, 22.0 ],
@@ -1920,8 +1958,40 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -2276,10 +2346,6 @@
 				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "nn~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "random.svg",

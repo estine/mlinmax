@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 215.97172486782074, 832.666666984558105, 202.0, 22.0 ],
+					"text" : "print \"Message to Fuzzy Clustering:\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -3136,6 +3147,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
 					"order" : 1,
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 2,
 					"source" : [ "obj-96", 0 ]
 				}
 

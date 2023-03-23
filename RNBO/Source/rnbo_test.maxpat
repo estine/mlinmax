@@ -40,11 +40,49 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 107.5, 244.0, 87.0, 22.0 ],
+					"text" : "loadmess -200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 54.0, 244.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 276.0, 35.0, 22.0 ],
+					"patching_rect" : [ 54.0, 410.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -73,8 +111,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 54.0, 208.0, 87.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"rate" : 						{
-							"label" : "rate",
+						"randPitchAmt" : 						{
+							"label" : "randPitchAmt",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -85,8 +123,8 @@
 							"parsestring" : ""
 						}
 ,
-						"randPitchAmt" : 						{
-							"label" : "randPitchAmt",
+						"rate" : 						{
+							"label" : "rate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -124,20 +162,28 @@
 								"p_obj-28" : 								{
 
 								}
+,
+								"p_obj-29" : 								{
+
+								}
+,
+								"p_obj-38" : 								{
+
+								}
 
 							}
 ,
 							"rate" : 							{
-								"value" : 500.0
+								"value" : 100.0
 							}
 ,
 							"__presetid" : "bassline",
 							"randPitchAmt" : 							{
-								"value" : 20.0
+								"value" : 3.0
 							}
 ,
 							"randPitchRate" : 							{
-								"value" : 10.0
+								"value" : 2.0
 							}
 ,
 							"active" : 							{
@@ -162,20 +208,28 @@
 											"p_obj-28" : 											{
 
 											}
+,
+											"p_obj-29" : 											{
+
+											}
+,
+											"p_obj-38" : 											{
+
+											}
 
 										}
 ,
 										"rate" : 										{
-											"value" : 500.0
+											"value" : 100.0
 										}
 ,
 										"__presetid" : "bassline",
 										"randPitchAmt" : 										{
-											"value" : 20.0
+											"value" : 3.0
 										}
 ,
 										"randPitchRate" : 										{
-											"value" : 10.0
+											"value" : 2.0
 										}
 ,
 										"active" : 										{
@@ -260,7 +314,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"order" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -268,6 +322,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -302,6 +370,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-3" : [ "rnbo~", "rnbo~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -383,16 +452,16 @@
 										}
 ,
 										"rate" : 										{
-											"value" : 500.0
+											"value" : 100.0
 										}
 ,
 										"__presetid" : "bassline",
 										"randPitchAmt" : 										{
-											"value" : 20.0
+											"value" : 3.0
 										}
 ,
 										"randPitchRate" : 										{
-											"value" : 10.0
+											"value" : 2.0
 										}
 ,
 										"active" : 										{
@@ -412,7 +481,7 @@
 			}
 ,
 			"snapshotlist" : 			{
-				"current_snapshot" : 2,
+				"current_snapshot" : 1,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,

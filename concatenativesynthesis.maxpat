@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1523.0, 1313.0 ],
+		"rect" : [ 34.0, 99.0, 1402.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 642.277749315628057, 753.0, 87.0, 22.0 ],
+					"text" : "loadmess -200"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "comment",
@@ -153,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1064.185193061828613, 780.98145717382431, 150.0, 34.0 ],
+					"patching_rect" : [ 1064.185193061828613, 780.98145717382431, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.648163795471191, 712.833311259746552, 155.0, 20.0 ],
 					"text" : "Real-Time Feature Analysis"
@@ -167,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.259247481822968, 566.166662584930464, 52.0, 89.0 ],
+					"patching_rect" : [ 359.259247481822968, 566.166662584930464, 52.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.740728914737701, 566.166662584930464, 204.0, 20.0 ],
 					"text" : "Which Destination Sound(s) To Use?"
@@ -182,10 +194,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.508735060691833, 230.967507243156433, 1471.0, 166.0 ],
+					"patching_rect" : [ 754.508735060691833, 230.967507243156433, 1471.0, 162.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 21,
-					"presentation_rect" : [ 686.909872651100159, 281.812703834882427, 388.477609992027283, 426.0 ],
+					"presentation_rect" : [ 686.909872651100159, 281.812703834882427, 391.0, 414.0 ],
 					"text" : "Our goal is to map from a source sound to a destination sound in real-time.\n\nFirst, we select our destination audio file(s), split it into little chunks (called windows) and analyze each chunk. Here, we are analyzing the windows using Mel-Frequency Cepstral Coefficients (MFCCs), which give us robust spectral information about a sound in just 12 features. After this step, we have a database of windows and their corresponding features.\n\nSecond, we select a file that will be our input. The windows of this sound are analyzed in real-time and using a supervised learning technique called k-Nearest Neighbors (or k-NN) we take each source window's features and get the most similar window from the destination database. We then pass this window's location to a granular synthesizer, which plays back that window as a grain."
 				}
 
@@ -197,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 926.462930738925934, 710.833330750465393, 165.0, 34.0 ],
+					"patching_rect" : [ 926.462930738925934, 710.833330750465393, 166.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 234.907440781593323, 839.333328783512115, 235.0, 20.0 ],
 					"text" : "Destination Buffer + Location in File"
@@ -211,9 +223,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 715.555532097816467, 126.666662514209747, 442.0, 43.0 ],
+					"patching_rect" : [ 715.555532097816467, 126.666662514209747, 442.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 686.909872651100159, 219.955621898174286, 334.0, 43.0 ],
+					"presentation_rect" : [ 686.909872651100159, 219.955621898174286, 334.0, 42.0 ],
 					"text" : "What is going on here?"
 				}
 
@@ -238,7 +250,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 982.962930738925934, 359.999988198280334, 52.0, 62.0 ],
+					"patching_rect" : [ 982.962930738925934, 359.999988198280334, 52.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.740728914737701, 602.462957691341444, 136.0, 20.0 ],
 					"text" : "Audio Heuristic Weights"
@@ -255,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 972.111092388629913, 391.703693091869354, 275.0, 36.0 ],
+					"patching_rect" : [ 972.111092388629913, 391.703693091869354, 275.0, 35.0 ],
 					"text" : "loadmess 1. 1. 1. 1. 0.910448 0.80597 0.567164 0.373134 0.208955 0.104478 0.059701 0.029851"
 				}
 
@@ -359,7 +371,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.481480300426483, 191.263805627822876, 320.0, 34.0 ],
+					"patching_rect" : [ 90.481480300426483, 191.263805627822876, 320.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.349391758441925, 476.448987364768982, 584.0, 20.0 ],
 					"text" : "Pick a source sound, which is analyzed in real-time and ML picks the closest match in the destination corpus"
@@ -419,7 +431,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -931,7 +943,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1395,7 +1407,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 798.555581315628046, 638.833330750465393, 60.0, 34.0 ],
+					"patching_rect" : [ 798.555581315628046, 638.833330750465393, 60.0, 33.0 ],
 					"text" : "enable selecting"
 				}
 
@@ -1414,7 +1426,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1976,7 +1988,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2127,7 +2139,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2176,7 +2188,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 2,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2438,7 +2450,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 2,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3500,7 +3512,6 @@
 					"patching_rect" : [ 65.666665315628052, 843.333330750465393, 490.0, 67.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 3,
 					"slidercolor" : [ 0.67, 0.67, 0.67, 1.0 ],
 					"spacing" : 1
 				}
@@ -3529,7 +3540,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 604.666665315628052, 680.833330750465393, 288.888904333114624, 50.0 ],
+					"patching_rect" : [ 604.666665315628052, 680.833330750465393, 288.888904333114624, 49.0 ],
 					"saved_object_attributes" : 					{
 						"resampleaudioinput" : 0
 					}
@@ -3660,7 +3671,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.481480300426483, 132.745289027690887, 350.0, 34.0 ],
+					"patching_rect" : [ 90.481480300426483, 132.745289027690887, 350.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.471720218658447, 108.745289027690887, 675.0, 20.0 ],
 					"text" : "Load our destination sound(s), which is automatically sliced into frames and analyzed (the \"descr\" tab below contains these)"
@@ -3726,9 +3737,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 249.0, 31.0 ],
+					"patching_rect" : [ 639.47172486782074, 13.863636363636374, 249.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 55.545989304812842, 183.52827513217926, 31.0 ],
+					"presentation_rect" : [ 41.47172486782074, 55.545989304812842, 183.52827513217926, 30.0 ],
 					"text" : "*Requires: MuBu"
 				}
 
@@ -3741,9 +3752,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 574.0, 80.0 ],
+					"patching_rect" : [ 41.47172486782074, 13.863636363636374, 574.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.47172486782074, 7.378973786949256, 688.0, 43.0 ],
+					"presentation_rect" : [ 41.47172486782074, 7.378973786949256, 688.0, 42.0 ],
 					"text" : "ML in Max | Real-Time Concatenative Synthesis"
 				}
 
@@ -3851,6 +3862,13 @@
 					"destination" : [ "obj-86", 0 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -4287,36 +4305,36 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "imubu.mxe64",
-				"type" : "mx64"
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.granular~.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.granular~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.knn.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.knn.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.process.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.record~.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.record~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.track.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "pipo~.mxe64",
-				"type" : "mx64"
+				"name" : "pipo~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

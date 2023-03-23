@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 92.971720218658447, 607.0, 144.0, 22.0 ],
+					"text" : "print \"Messages to SVM:\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -323,8 +334,7 @@
 						}
 
 					}
-,
-					"varname" : "live.gain~"
+
 				}
 
 			}
@@ -408,15 +418,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 797.0, 974.245289027690887, 56.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -70.0 ],
 						"live.text" : [ 0.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
-						"synth_cutofffreq" : [ 11139.0 ],
-						"synth_rate" : [ 10.0 ],
-						"synth_release" : [ 285.0 ],
-						"synth_reverb" : [ 164 ],
-						"synth_rhythmiccomplexity" : [ 1 ]
+						"synth_cutofffreq" : [ 5000.0 ],
+						"synth_rate" : [ 0.3 ],
+						"synth_release" : [ 10.0 ],
+						"synth_reverb" : [ 110 ],
+						"synth_rhythmiccomplexity" : [ 2 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1049,7 +1058,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 848.878622361024213, 306.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 171.471720218658447, 588.878617711861921, 139.305061519145966, 41.0 ]
+					"presentation_rect" : [ 171.471720218658447, 588.878617711861921, 139.305061519145966, 41.0 ],
+					"text" : "Preset 1"
 				}
 
 			}
@@ -1906,7 +1916,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
 					"source" : [ "obj-96", 0 ]
 				}
 

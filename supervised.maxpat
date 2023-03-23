@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 65.0, 702.0, 878.0 ],
+		"rect" : [ 68.0, 99.0, 702.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 215.97172486782074, 832.0, 138.0, 22.0 ],
+					"text" : "print \"Message to SVM:\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "message",
@@ -84,7 +95,7 @@
 					"patching_rect" : [ 256.0, 662.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 508.0, 508.5, 120.0, 20.0 ],
-					"text" : "0.59 1.00 0.54",
+					"text" : "1.00 0.08 0.10",
 					"textjustification" : 1
 				}
 
@@ -544,8 +555,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 908.878622361024213, 306.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.173932156849389, 809.878622361024213, 298.826067843150611, 41.0 ],
-					"text" : "Hey, that's a snare!"
+					"presentation_rect" : [ 167.173932156849389, 809.878622361024213, 298.826067843150611, 41.0 ]
 				}
 
 			}
@@ -1987,6 +1997,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-96", 0 ]
 				}
 
