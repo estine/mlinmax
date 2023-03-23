@@ -10,7 +10,7 @@ In the accompanying talk and demonstration I introduce what Machine Learning (ML
 
 ## Assumptions
 - You're interested in incorporating ML into your art-making practice
-- You're not knowledgeable about ML (yet!)
+- You're not deeply knowledgeable about ML (yet!)
 - You're comfortable programming in Max
 - You're aware of how to install packages (File -> Show Package Manager)
 
@@ -25,8 +25,6 @@ In the accompanying talk and demonstration I introduce what Machine Learning (ML
 | [FluCoMa](https://www.flucoma.org/download/) | FluCoMa Team | many different ML algorithms, well organized, some example patches assume knowledge of ML | Closed Source | 2018 | Just Stopped Development | via Max Package Manager |
 | [ml.star](https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max) | Benjamin D. Smith | a number of different ML algorithms, with nice example patches, although some dated, a good entry point | Closed Source | 2011 | Not in Development | via Max Package Manager |
 | [ml-lib](https://github.com/irllabs/ml-lib) | IRL Labs | a direct implenentation of the Gesture Recognition Toolkit by Nick Gillian in Max, very barebones, data type agnostic, data as lists | [Open Source](https://github.com/irllabs/ml-lib) | 2013 | In Development | via Max Package Manager |
-
-https://forums.fast.ai/t/deep-learning-for-max-msp/54307/2
 
 <br>
 
