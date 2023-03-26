@@ -1,5 +1,6 @@
 # Machine Learning in Cycling '74's Max
 ## Repository for Max patches that accompany my Seattle Max Meetup presentation, March 25th, 2023
+## [Link to Slides](https://docs.google.com/presentation/d/1I2Lr4kJX5gEyAw2AXSiu_aIr-7siIj-yT0ZrLjSVMjc/edit?usp=sharing)
 
 <br>
 
