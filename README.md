@@ -48,6 +48,11 @@ In the accompanying talk and demonstration I introduce what Machine Learning (ML
 
 <br>
 
+### TODO
+- Incorporate https://github.com/testcase/mlmat
+- Incorporate other ML Max tools
+- Link to my own ML-related work (Murmurator, EcoBobbles, others)
+
 ### RNBO Extras
 RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets, three of which I'll demo.:
 - C++ Source
