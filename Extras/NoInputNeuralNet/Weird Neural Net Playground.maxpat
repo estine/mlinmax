@@ -40,6 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 12.2907882709523,
+					"id" : "obj-39",
+					"linecount" : 26,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 491.0, 83.0, 165.0, 364.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 16,
+					"presentation_rect" : [ 445.0, 41.842104196548462, 337.0, 226.0 ],
+					"text" : "Requirements:\nThis patch requires nn~ and also the wheel.ts model to be downloaded in an accessible location\n\nBy default the models are OFF (turn on toggles at bottom)\n\nDirections:\nThe top section is the input, which can be synthetic (a 440 hertz tone, a click) or analog (microphone input)\n\nThe bottom section is the output, which is a vocal model in raw form or pitch shifted up one or two octaves, respectively.\n\nThe right section is a simple audio feedback network, which can result in some really fascinating results"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 288.5, 40.0, 139.0, 22.0 ],
+					"text" : "loadmess presentation 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 435.0, 40.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1453,6 +1494,13 @@
 					"destination" : [ "obj-40", 0 ],
 					"order" : 1,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
