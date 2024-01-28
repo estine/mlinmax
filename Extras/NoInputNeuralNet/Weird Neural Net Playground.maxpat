@@ -49,7 +49,7 @@
 					"patching_rect" : [ 491.0, 83.0, 165.0, 364.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
-					"presentation_rect" : [ 445.0, 41.842104196548462, 337.0, 226.0 ],
+					"presentation_rect" : [ 430.0, 41.842104196548462, 337.0, 226.0 ],
 					"text" : "Requirements:\nThis patch requires nn~ and also the wheel.ts model to be downloaded in an accessible location\n\nBy default the models are OFF (turn on toggles at bottom)\n\nDirections:\nThe top section is the input, which can be synthetic (a 440 hertz tone, a click) or analog (microphone input)\n\nThe bottom section is the output, which is a vocal model in raw form or pitch shifted up one or two octaves, respectively.\n\nThe right section is a simple audio feedback network, which can result in some really fascinating results"
 				}
 
@@ -124,7 +124,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 534.210521221160889, 590.789468050003052, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 459.210521936416626, 580.263152360916138, 246.0, 20.0 ],
+					"presentation_rect" : [ 444.210521936416626, 580.263152360916138, 246.0, 20.0 ],
 					"text" : "(Try some no-input neural network playing...)"
 				}
 
@@ -151,7 +151,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 356.315788507461548, 885.263156890869141, 56.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.684217691421509, 767.973681211471558, 56.0, 48.0 ],
+					"presentation_rect" : [ 117.684217691421509, 767.973681211471558, 56.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
@@ -183,7 +183,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.57894766330719, 417.85125648457074, 109.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.894736647605896, 419.499998807907104, 144.84210467338562, 31.0 ],
+					"presentation_rect" : [ 140.894736647605896, 419.499998807907104, 144.84210467338562, 31.0 ],
 					"text" : "ALL OUTPUT"
 				}
 
@@ -199,7 +199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 512.421048879623413, 166.421052932739258, 109.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.684210896492004, 95.482838506283969, 118.526315450668335, 31.0 ],
+					"presentation_rect" : [ 153.684210896492004, 95.482838506283969, 118.526315450668335, 31.0 ],
 					"text" : "ALL INPUT"
 				}
 
@@ -212,7 +212,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 668.421046257019043, 542.105257987976074, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 654.05262565612793, 529.736839771270752, 24.0, 20.0 ],
+					"presentation_rect" : [ 639.05262565612793, 529.736839771270752, 24.0, 20.0 ],
 					"text" : "ms"
 				}
 
@@ -225,7 +225,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.526311159133911, 361.842101812362671, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.342106342315674, 401.315785646438599, 104.0, 20.0 ],
+					"presentation_rect" : [ 473.342106342315674, 401.315785646438599, 104.0, 20.0 ],
 					"text" : "Type of Feedback"
 				}
 
@@ -238,7 +238,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 953.947359323501587, 186.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.842106342315674, 322.105262279510498, 109.0, 20.0 ],
+					"presentation_rect" : [ 470.842106342315674, 322.105262279510498, 109.0, 20.0 ],
 					"text" : "Feedback Network"
 				}
 
@@ -253,7 +253,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.5, 549.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 322.052631855010986, 656.815782070159912, 24.0, 24.0 ]
+					"presentation_rect" : [ 307.052631855010986, 656.815782070159912, 24.0, 24.0 ]
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 509.0, 413.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.315788984298706, 656.815782070159912, 24.0, 24.0 ]
+					"presentation_rect" : [ 201.315788984298706, 656.815782070159912, 24.0, 24.0 ]
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.999998807907104, 215.789471626281738, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.315788984298706, 656.815782070159912, 24.0, 24.0 ]
+					"presentation_rect" : [ 101.315788984298706, 656.815782070159912, 24.0, 24.0 ]
 				}
 
 			}
@@ -319,7 +319,7 @@
 					"patching_rect" : [ 1044.65788459777832, 230.0, 63.578947305679321, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 708.078940868377686, 322.105262279510498, 63.578947305679321, 47.0 ],
+					"presentation_rect" : [ 693.078940868377686, 322.105262279510498, 63.578947305679321, 47.0 ],
 					"text" : "Delay Line Feedback"
 				}
 
@@ -334,7 +334,7 @@
 					"patching_rect" : [ 984.131569385528564, 230.0, 57.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 602.55262565612793, 322.105262279510498, 57.0, 47.0 ],
+					"presentation_rect" : [ 587.55262565612793, 322.105262279510498, 57.0, 47.0 ],
 					"text" : "Delay Line Length"
 				}
 
@@ -347,7 +347,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 259.0, 198.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.947368621826172, 190.105263233184814, 57.0, 20.0 ],
+					"presentation_rect" : [ 82.947368621826172, 190.105263233184814, 57.0, 20.0 ],
 					"text" : "Mic Input"
 				}
 
@@ -360,7 +360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 753.0, 120.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.947368621826172, 231.842104196548462, 104.0, 20.0 ],
+					"presentation_rect" : [ 160.947368621826172, 231.842104196548462, 104.0, 20.0 ],
 					"text" : "Synthesized Input"
 				}
 
@@ -376,7 +376,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1002.631569385528564, 291.578947067260742, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 621.05262565612793, 383.68420934677124, 20.0, 140.0 ],
+					"presentation_rect" : [ 606.05262565612793, 383.68420934677124, 20.0, 140.0 ],
 					"size" : 2000.0
 				}
 
@@ -392,7 +392,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1049.999989986419678, 291.578947067260742, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 713.421046257019043, 383.68420934677124, 20.0, 140.0 ],
+					"presentation_rect" : [ 698.421046257019043, 383.68420934677124, 20.0, 140.0 ],
 					"size" : 1.0
 				}
 
@@ -504,7 +504,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 764.263156890869141, 300.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.473687648773193, 67.105264186859131, 300.0, 100.0 ],
+					"presentation_rect" : [ 67.473687648773193, 67.105264186859131, 300.0, 100.0 ],
 					"scroll" : 2,
 					"sono" : 1
 				}
@@ -522,7 +522,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 209.0, 157.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.947368621826172, 224.105262517929077, 48.0, 136.0 ],
+					"presentation_rect" : [ 82.947368621826172, 224.105262517929077, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[6]",
@@ -551,7 +551,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 453.5, 249.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.052631855010986, 224.105262517929077, 48.0, 136.0 ],
+					"presentation_rect" : [ 295.052631855010986, 224.105262517929077, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -580,7 +580,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 703.0, 573.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 418.78947639465332, 371.684212446212769, 48.0, 136.0 ],
+					"presentation_rect" : [ 403.78947639465332, 371.684212446212769, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -608,7 +608,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 606.0, 434.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 492.842106342315674, 431.368421077728271, 100.0, 22.0 ]
+					"presentation_rect" : [ 477.842106342315674, 431.368421077728271, 100.0, 22.0 ]
 				}
 
 			}
@@ -696,7 +696,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 885.263156890869141, 300.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.473687648773193, 384.999998807907104, 300.0, 100.0 ],
+					"presentation_rect" : [ 67.473687648773193, 384.999998807907104, 300.0, 100.0 ],
 					"scroll" : 2,
 					"sono" : 1
 				}
@@ -714,7 +714,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 53.0, 573.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.315788984298706, 512.710525751113892, 48.0, 136.0 ],
+					"presentation_rect" : [ 89.315788984298706, 512.710525751113892, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -743,7 +743,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 153.0, 573.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.315788984298706, 512.710525751113892, 48.0, 136.0 ],
+					"presentation_rect" : [ 189.315788984298706, 512.710525751113892, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -772,7 +772,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 315.0, 684.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.052631855010986, 512.710525751113892, 48.0, 136.0 ],
+					"presentation_rect" : [ 295.052631855010986, 512.710525751113892, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -812,7 +812,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 753.0, 150.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.947368621826172, 261.842104196548462, 100.0, 20.0 ],
+					"presentation_rect" : [ 160.947368621826172, 261.842104196548462, 100.0, 20.0 ],
 					"text" : "Tone Off",
 					"texton" : "Tone On"
 				}
@@ -828,7 +828,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 753.0, 180.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.947368621826172, 291.842104196548462, 100.0, 20.0 ],
+					"presentation_rect" : [ 160.947368621826172, 291.842104196548462, 100.0, 20.0 ],
 					"text" : "Click"
 				}
 
@@ -844,7 +844,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 170.0, 738.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.315788984298706, 734.052631616592407, 48.0, 136.0 ],
+					"presentation_rect" : [ 189.315788984298706, 734.052631616592407, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -967,7 +967,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 884.0, 453.5, 56.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 514.842106342315674, 469.289473533630371, 56.0, 48.0 ],
+					"presentation_rect" : [ 499.842106342315674, 469.289473533630371, 56.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
@@ -1109,7 +1109,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 778.0, 285.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 606.05262565612793, 529.736839771270752, 50.0, 22.0 ]
+					"presentation_rect" : [ 591.05262565612793, 529.736839771270752, 50.0, 22.0 ]
 				}
 
 			}
@@ -1124,7 +1124,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 913.0, 317.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 698.421046257019043, 529.736839771270752, 50.0, 22.0 ]
+					"presentation_rect" : [ 683.421046257019043, 529.736839771270752, 50.0, 22.0 ]
 				}
 
 			}
