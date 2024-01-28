@@ -1,4 +1,5 @@
 # Machine Learning in Cycling '74's Max
+### [Link to Presentation Slides](https://docs.google.com/presentation/d/1I2Lr4kJX5gEyAw2AXSiu_aIr-7siIj-yT0ZrLjSVMjc/edit?usp=sharing)
 ## Repository for Max patches that accompany my Seattle Max Meetup presentation, March 25th, 2023
 
 <br>
@@ -46,6 +47,11 @@ In the accompanying talk and demonstration I introduce what Machine Learning (ML
 ![DeepLearning](DeepLearningScreenshot.png)
 
 <br>
+
+### TODO
+- Incorporate https://github.com/testcase/mlmat
+- Incorporate other ML Max tools
+- Link to my own ML-related work (Murmurator, EcoBobbles, others)
 
 ### RNBO Extras
 RNBO is a new Max feature that allows you to write RNBO patches (similar to Max patches) that can then be exported to five different targets, three of which I'll demo.:
