@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 359.0, 165.0, 838.0, 705.0 ],
+		"rect" : [ 359.0, 165.0, 777.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,100 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 79.815794467926025, 367.052630186080933, 87.0, 22.0 ],
+					"text" : "loadmess -127"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"channels" : 1,
+					"id" : "obj-49",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 79.815794467926025, 400.0, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 353.052631855010986, 224.105262517929077, 66.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[7]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "Input Monitor",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[7]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Macintosh HD:/Users/elistine/Desktop/Code/mlinmax/Extras/NoInputNeuralNet/EliVoiceExample.wav",
+								"filename" : "EliVoiceExample.wav",
+								"filekind" : "audiofile",
+								"id" : "u449001319",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-44",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 347.0, 202.052630186080933, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 347.0, 161.052630186080933, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 160.947368621826172, 322.105262279510498, 100.0, 20.0 ],
+					"text" : "Voice Example",
+					"texton" : "Voice Example"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 12.2907882709523,
 					"id" : "obj-39",
@@ -1506,6 +1600,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -1559,6 +1660,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -1587,6 +1695,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"order" : 1,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"order" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -1610,6 +1734,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"order" : 1,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"order" : 2,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -1664,6 +1796,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -1825,6 +1964,7 @@
 			"obj-30" : [ "live.gain~[2]", "8va", 0 ],
 			"obj-34" : [ "live.gain~[3]", "Raw", 0 ],
 			"obj-40" : [ "live.gain~", "Main", 0 ],
+			"obj-49" : [ "live.gain~[7]", "Input Monitor", 0 ],
 			"obj-51" : [ "live.gain~[4]", "Feedback", 0 ],
 			"obj-52" : [ "live.gain~[5]", "Input", 0 ],
 			"obj-53" : [ "live.gain~[6]", "Mic", 0 ],
@@ -1843,6 +1983,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "EliVoiceExample.wav",
+				"bootpath" : "~/Desktop/Code/mlinmax/Extras/NoInputNeuralNet",
+				"patcherrelativepath" : ".",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "nn~.mxo",
 				"type" : "iLaX"
 			}
