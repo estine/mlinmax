@@ -63,7 +63,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.004728198197968 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-28",
 					"maxclass" : "textbutton",
@@ -108,7 +108,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.047695982131211 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-31",
 					"maxclass" : "textbutton",
@@ -153,7 +153,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.047514486791901 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-34",
 					"maxclass" : "textbutton",
@@ -198,7 +198,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.68235294117647, 1.0, 0.075778767771056 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-37",
 					"maxclass" : "textbutton",
@@ -243,7 +243,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.478395911569345 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
@@ -288,7 +288,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.151737476194296 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-21",
 					"maxclass" : "textbutton",
@@ -333,7 +333,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.086173900670077 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-18",
 					"maxclass" : "textbutton",
@@ -378,7 +378,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.0, 0.0, 0.04469888591857 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-62",
 					"maxclass" : "textbutton",
@@ -470,6 +470,10 @@
 , 						{
 							"number" : 2,
 							"data" : [ 5, "obj-97", "number", "int", 0, 5, "obj-96", "number", "int", 2000, 5, "obj-22", "flonum", "float", 0.050000000745058 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-97", "number", "int", 65, 5, "obj-96", "number", "int", 8000, 5, "obj-22", "flonum", "float", 0.050000000745058 ]
 						}
  ]
 				}
@@ -911,7 +915,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "neuron.maxpat",
-				"bootpath" : "~/Desktop/Job Apps/Job Talks/MachineLearning/BrainFriend/patchers",
+				"bootpath" : "~/Desktop/Code/mlinmax/Extras/BrainFriend/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

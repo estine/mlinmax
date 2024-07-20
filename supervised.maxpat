@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 99.0, 702.0, 823.0 ],
+		"rect" : [ 34.0, 99.0, 1135.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,7 @@
 					"patching_rect" : [ 256.0, 662.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 508.0, 508.5, 120.0, 20.0 ],
-					"text" : "1.00 0.08 0.10",
+					"text" : "0.27 1.00 0.41",
 					"textjustification" : 1
 				}
 
@@ -127,7 +127,6 @@
 			}
 , 			{
 				"box" : 				{
-					"candycane" : 3,
 					"id" : "obj-128",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -139,7 +138,8 @@
 					"presentation_rect" : [ 508.0, 392.5, 120.0, 108.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 3
+					"size" : 3,
+					"spacing" : 5
 				}
 
 			}

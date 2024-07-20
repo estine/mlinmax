@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 518.666665315628052, 240.333330750465393, 123.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 437.666665315628052, 512.592581689357758, 123.0, 22.0 ],
+					"text" : "EliVoiceExample.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,7 +73,7 @@
 					"patching_rect" : [ 779.850718379020691, 815.740735948085785, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 234.907440781593323, 861.333328783512115, 23.805972337722778, 20.0 ],
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -194,10 +208,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.508735060691833, 230.967507243156433, 1471.0, 162.0 ],
+					"patching_rect" : [ 823.508735060691833, 284.967507243156433, 1471.0, 162.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 21,
-					"presentation_rect" : [ 686.909872651100159, 281.812703834882427, 391.0, 414.0 ],
+					"presentation_rect" : [ 686.909872651100159, 281.812703834882427, 396.0, 414.0 ],
 					"text" : "Our goal is to map from a source sound to a destination sound in real-time.\n\nFirst, we select our destination audio file(s), split it into little chunks (called windows) and analyze each chunk. Here, we are analyzing the windows using Mel-Frequency Cepstral Coefficients (MFCCs), which give us robust spectral information about a sound in just 12 features. After this step, we have a database of windows and their corresponding features.\n\nSecond, we select a file that will be our input. The windows of this sound are analyzed in real-time and using a supervised learning technique called k-Nearest Neighbors (or k-NN) we take each source window's features and get the most similar window from the destination database. We then pass this window's location to a granular synthesizer, which plays back that window as a grain."
 				}
 
@@ -301,7 +315,7 @@
 					"patching_rect" : [ 874.555569648742676, 805.608321964740753, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 348.990628242492676, 861.333328783512115, 85.0, 20.0 ],
-					"text" : "8224.66"
+					"text" : "3324.29"
 				}
 
 			}
@@ -3512,6 +3526,7 @@
 					"patching_rect" : [ 65.666665315628052, 843.333330750465393, 490.0, 67.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"size" : 3,
 					"slidercolor" : [ 0.67, 0.67, 0.67, 1.0 ],
 					"spacing" : 1
 				}
@@ -3930,6 +3945,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
