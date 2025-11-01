@@ -40,6 +40,70 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 587.0, 219.0, 87.0, 22.0 ],
+					"text" : "loadmess -127"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 685.0, 285.245289027690887, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 195.471720218658447, 655.0, 104.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[2]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "Microphone INPUT",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 685.0, 200.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 685.0, 239.699999988079071, 35.0, 22.0 ],
+					"text" : "adc~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 19.919054512591146,
 					"id" : "obj-25",
 					"maxclass" : "comment",
@@ -47,7 +111,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 328.0, 901.0, 116.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.990541219711304, 630.753424657534197, 123.230214238166809, 29.0 ],
+					"presentation_rect" : [ 480.990541219711304, 630.753424657534197, 123.230214238166809, 29.0 ],
 					"text" : "Learn More!"
 				}
 
@@ -145,7 +209,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 1057.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.16194760799408, 670.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 587.16194760799408, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Read About How This Works",
 					"truncate" : 0
 				}
@@ -174,7 +238,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 921.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.769785761833191, 670.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 506.769785761833191, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Other Pre-Trained Models",
 					"truncate" : 0
 				}
@@ -203,7 +267,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 41.671725153923035, 782.0, 71.671725153923035, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.800002217292786, 670.999987602233887, 71.671725153923035, 70.0 ],
+					"presentation_rect" : [ 425.800002217292786, 670.999987602233887, 71.671725153923035, 70.0 ],
 					"text" : "Click Here For The VST",
 					"truncate" : 0
 				}
@@ -244,7 +308,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 815.085723459720612, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 697.085723459720612, 45.0, 45.0 ]
+					"presentation_rect" : [ 325.0, 697.085723459720612, 45.0, 45.0 ]
 				}
 
 			}
@@ -1063,7 +1127,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 257.800002217292786, 529.900001883506775, 203.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 305.800002217292786, 569.900001883506775, 203.0, 22.0 ],
@@ -1077,7 +1141,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 257.800002217292786, 474.500002861022949, 203.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 305.800002217292786, 519.500002861022949, 203.0, 22.0 ],
@@ -1813,7 +1877,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 41.471720218658447, 474.500002861022949, 134.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.471720218658447, 519.500002861022949, 134.0, 22.0 ],
@@ -2048,6 +2112,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -2192,6 +2263,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -2208,6 +2286,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"order" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -2309,6 +2410,7 @@
 			"obj-22" : [ "live.text[1]", "live.text", 0 ],
 			"obj-33::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-33::obj-35" : [ "[6]", "Level", 0 ],
+			"obj-46" : [ "live.gain~[2]", "Microphone INPUT", 0 ],
 			"obj-5" : [ "live.gain~", "RAW INPUT", 0 ],
 			"obj-9" : [ "live.gain~[1]", "nn~ OUTPUT", 0 ],
 			"obj-98" : [ "live.text", "live.text", 0 ],
@@ -2346,6 +2448,10 @@
 				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "nn~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "random.svg",

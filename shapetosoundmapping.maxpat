@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-49",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 602.0, 1463.166711688041687, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 366.119436624049285, 646.333319425582886, 58.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "Synth Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -93,15 +121,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
+					"fontsize" : 23.480193795248859,
 					"id" : "obj-83",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 665.0, 166.0, 20.0 ],
+					"patching_rect" : [ 376.0, 665.0, 310.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 249.943445086479187, 684.666647672653198, 48.0, 33.0 ],
+					"presentation_rect" : [ 255.933004294787622, 648.666647672653198, 85.363536469628002, 59.0 ],
 					"text" : "Preset Recall:"
 				}
 
@@ -253,8 +281,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 1453.0, 87.0, 22.0 ],
-					"text" : "loadmess -200"
+					"patching_rect" : [ 498.0, 1423.0, 87.0, 22.0 ],
+					"text" : "loadmess -127"
 				}
 
 			}
@@ -308,33 +336,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 101.471720218658447, 671.666647672653198, 50.0, 22.0 ],
 					"varname" : "synth_rhythmiccomplexity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 602.0, 1465.166711688041687, 48.0, 136.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 332.0, 638.333324790000916, 67.0, 156.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "Synth Volume",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-
 				}
 
 			}
@@ -418,14 +419,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 797.0, 974.245289027690887, 56.0, 22.0 ],
 					"restore" : 					{
+						"live.gain~[1]" : [ -1.538338364036761 ],
 						"live.text" : [ 0.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
-						"synth_cutofffreq" : [ 5000.0 ],
-						"synth_rate" : [ 0.3 ],
-						"synth_release" : [ 10.0 ],
-						"synth_reverb" : [ 110 ],
-						"synth_rhythmiccomplexity" : [ 2 ]
+						"synth_cutofffreq" : [ 1000.000250788984204 ],
+						"synth_rate" : [ 0.999999956111927 ],
+						"synth_release" : [ 999.999937929726343 ],
+						"synth_reverb" : [ 50 ],
+						"synth_rhythmiccomplexity" : [ 3 ]
 					}
 ,
 					"text" : "autopattr",
@@ -617,7 +619,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 16.571386366141311,
+					"fontsize" : 34.426962814911462,
 					"format" : 6,
 					"id" : "obj-34",
 					"maxclass" : "flonum",
@@ -625,9 +627,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 602.0, 955.245289027690887, 60.0, 27.0 ],
+					"patching_rect" : [ 602.0, 955.245289027690887, 90.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 237.110108435153961, 720.833319425582886, 73.666673302650452, 27.0 ]
+					"presentation_rect" : [ 233.110108435153961, 712.98571023861723, 131.009328188895324, 47.0 ]
 				}
 
 			}
@@ -726,7 +728,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 602.0, 1610.666714668273926, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.305068135261536, 683.833324790000916, 45.0, 45.0 ]
+					"presentation_rect" : [ 428.305068135261536, 694.333319425582886, 45.0, 45.0 ]
 				}
 
 			}
@@ -1486,7 +1488,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1714,6 +1716,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-49", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-118", 1 ],
 					"source" : [ "obj-5", 1 ]
 				}
@@ -1823,14 +1839,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 1 ],
+					"destination" : [ "obj-49", 1 ],
 					"source" : [ "obj-68", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -1855,20 +1871,6 @@
 					"destination" : [ "obj-68", 2 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"source" : [ "obj-72", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-72", 0 ]
 				}
 
 			}
@@ -1940,7 +1942,7 @@
  ],
 		"parameters" : 		{
 			"obj-12" : [ "live.text[2]", "live.text", 0 ],
-			"obj-72" : [ "live.gain~", "Synth Volume", 0 ],
+			"obj-49" : [ "live.gain~[1]", "Synth Volume", 0 ],
 			"obj-9" : [ "live.text[1]", "live.text", 0 ],
 			"obj-98" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
